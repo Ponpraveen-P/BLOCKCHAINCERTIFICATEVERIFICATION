@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockCert - Immutable Blockchain Certificate Verification System</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-link logo-icon"></i>
+                <div>
+                    <h1>BlockCert</h1>
+                    <span class="subtitle">REGISTRY LEDGER</span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#verify">Verify Certificate</a>
+                <a href="#about">About</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#admin" class="admin-link">Admin Login</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Open Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <span class="badge"><span class="dot"></span> Web3 Proof of Integrity</span>
+            <h1 class="main-title">Blockchain Based<br><span class="gradient-text">Certificate Verification</span></h1>
+            <p class="hero-description">Secure, Transparent and Tamper-Proof Certificate Verification. Restoring trust in academic achievements through cryptography.</p>
+            
+            <div class="cta-buttons">
+                <a href="#verify" class="btn btn-primary"><i class="fa-solid fa-square-check"></i> Verify Certificate</a>
+                <a href="#admin" class="btn btn-secondary"><i class="fa-solid fa-shield-halved"></i> Admin Login</a>
+            </div>
+
+            <!-- Visual Blockchain Blocks Representation -->
+            <div class="blockchain-visual">
+                <div class="block-node">
+                    <i class="fa-solid fa-cube block-icon"></i>
+                    <span>Block #0</span>
+                </div>
+                <div class="block-line"></div>
+                <div class="block-node">
+                    <i class="fa-solid fa-cube block-icon"></i>
+                    <span>Block #1</span>
+                </div>
+                <div class="block-line"></div>
+                <div class="block-node">
+                    <i class="fa-solid fa-cube block-icon"></i>
+                    <span>Block #2</span>
+                </div>
+            </div>
+
+            <!-- Live Stats Dashboard -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fa-solid fa-timeline stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>2</h3>
+                        <p>CERTIFICATES ISSUED</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fa-solid fa-circle-check stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>142</h3>
+                        <p>CERTIFICATES VERIFIED</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fa-solid fa-building-columns stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>2</h3>
+                        <p>REGISTERED INSTITUTIONS</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <i class="fa-solid fa-shield-cat stat-icon"></i>
+                    <div class="stat-info">
+                        <h3>100%</h3>
+                        <p>BLOCKCHAIN SECURITY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section-padding steps-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Securing credentials in four transparent cryptographic steps.</p>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Certificate Issued</h3>
+                    <p>Academic details are inputted and approved by authority.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Stored Securely</h3>
+                    <p>Metadata records are stored in the local registry database.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Hash Generated</h3>
+                    <p>A unique SHA-256 cryptographic signature is mined into the blockchain ledger.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <h3>Certificate Verified</h3>
+                    <p>Employers check validity instantly via PDF uploads or Certificate ID queries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Blockchain Section -->
+    <section class="section-padding features-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Blockchain?</h2>
+                <p>Our decentralized architecture makes certificate falsification impossible.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fa-solid fa-lock feature-icon"></i>
+                    <h3>Tamper Proof</h3>
+                    <p>Any modification to certificate details instantly invalidates the blockchain hash signature matching checks.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-shield-cat feature-icon"></i>
+                    <h3>Secure</h3>
+                    <p>Cryptographic locks seal student achievements into blocks, guaranteeing absolute data authenticity.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-eye feature-icon"></i>
+                    <h3>Transparent</h3>
+                    <p>Every transaction block carries timestamp verification logs visible to any auditor without registration.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fa-solid fa-network-wired feature-icon"></i>
+                    <h3>Decentralized</h3>
+                    <p>Eliminates dependency on single central databases, validating proofs directly against the ledger hashes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding about-section">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>About BlockCert</h2>
+                <p>BlockCert is a next-generation academic credentialing registry designed to eliminate credential fraud. By leveraging cryptographic hashing and decentralized verification workflows, it allows colleges, universities, and technical academies to publish verified accomplishments that are instantly audit-ready.</p>
+                <p>Our platform generates cryptographically signed PDF certificates containing embedded SHA-256 integrity proofs. Third parties can cross-reference the certificates in a fraction of a second, preventing the distribution of counterfeit diplomas and certifications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 BlockCert - Blockchain Certificate Verification System</p>
+            <div class="footer-meta">
+                <span>CRYPTOGRAPHIC PROOF REGISTRY</span>
+                <div class="footer-links">
+                    <a href="#docs"><i class="fa-solid fa-book"></i> Documentation</a>
+                    <a href="#github"><i class="fa-brands fa-github"></i> Github Repository</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
